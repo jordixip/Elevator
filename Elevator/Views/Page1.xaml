@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Elevator.Views.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="label" Text="ElevatoR" FontSize="Title" FontAttributes="Bold"  HorizontalOptions="CenterAndExpand" ></Label>
+            <Button Text="00 ATRAPADO" BackgroundColor="Yellow" FontAttributes="Italic" TextColor="Black" Clicked="On00Clicked" />
+            <Button Text="01 CRISTAL ROTO" BackgroundColor="Yellow" FontAttributes="Italic" TextColor="Black" Clicked="On01Clicked" />
+            <Button Text="02 PARADO" BackgroundColor="Blue" FontAttributes="Italic" TextColor="Black" Clicked="On02Clicked"/>
+            <Button Text="03 SIN LUZ EN CABINA" BackgroundColor="Green" FontAttributes="Italic" TextColor="Black" Clicked="On03Clicked"/>
+            <Button Text="04 BAJA / SUBE SOLO" BackgroundColor="Green" FontAttributes="Italic" TextColor="Black" Clicked="On04Clicked"/>
+            <Button Text="05 NO ABRE / CIERRA" BackgroundColor="Green" FontAttributes="Italic" TextColor="Black" Clicked="On05Clicked"/>
+            <Button Text="06 AVERIA" BackgroundColor="Orange" FontAttributes="Italic" TextColor="Black" Clicked="On06Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
